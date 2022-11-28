@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap eCommerce Page Template</title>
+    <!-- Bootstrap -->
+    <link href="css/bootstrap-4.4.1.css" rel="stylesheet">
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container">
+        <a class="navbar-brand" href="#">Luckyshop</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" id="home" href="index.html">Home<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Countries</a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+				<a class="dropdown-item" id="menuBrazil" href="#">Brazil</a>  
+        <a hidden class="dropdown-item" id="menuCanada" href="#">Canada</a>
+						  
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div id="carrossel" class="container mt-3" hidden="">
+      <div class="row">
+        <div class="col-12">
+          <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+              <li data-target="#carouselExampleControls" data-slide-to="0" class="active"></li>
+              <li data-target="#carouselExampleControls" data-slide-to="1"></li>
+              <li data-target="#carouselExampleControls" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <a href="https://ridefiles.net/show.php?l=0&u=700241&id=41804&tracking_id="><img class="d-block w-100" src="images/australia/australia-carrossel.png" alt="First slide"></a>
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Only in Australia! 🦘</h5>
+                  <p>Enter your mobile number now for a chance to win.</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <a href="https://ridefiles.net/show.php?l=0&u=700241&id=39689&tracking_id="><img class="d-block w-100" src="images/canada/canada-carrossel.png" alt="Second slide"></a>
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Only in Canada! 🍁</h5>
+                  <p>Enter your mobile number now for a chance to win.</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <a href="https://ridefiles.net/show.php?l=0&u=700241&id=38552&tracking_id="><img class="d-block w-100" src="images/australia/australia-carrossel2.png" alt="Third slide"></a>
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Only in Australia! 🦘</h5>
+                  <p>Enter your mobile number now for a chance to win.</p>
+                </div>
+              </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+            </a>
+          </div>
+        </div>
+      </div>
+      <hr>
+    </div>
+    <hr>
+    <h2 class="text-center">RECOMMENDED OFFERS</h2>
+    <hr>
+    <div class="container">
+      <div class="row text-center">
+        <div class="col-md-4 pb-1 pb-md-0">
+          <div class="card">
+            <img id="offer1" class="card-img-top" src="images/What's inside/1-iphone-14.png"
+				 alt="Card image cap">
+            <div class="card-body">
+              <h5 id="card1" class="card-title">iPhone 14</h5>
+              <p id="cardText1" class="card-text">Enter your phone number for a chance to win an iPhone 14. Offer available in the UK only.</p>
+              <a id="buttonOffer1" href="https://ridefiles.net/show.php?l=0&u=700241&id=47737&tracking_id=" class="btn btn-primary">CHECK OUT</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 pb-1 pb-md-0">
+          <div class="card">
+            <img id="offer2" class="card-img-top" src="images/What's inside/2-samsung-22.png" alt="Card image cap">
+            <div class="card-body">
+              <h5 id="card2" class="card-title">Samsung Galaxy S22</h5>
+              <p id="cardText2" class="card-text">Enter your phone number to compete for a Samsung Galaxy S22. Offer available in New Zealand only.</p>
+              <a id="buttonOffer2" href="https://ridefiles.net/show.php?l=0&u=700241&id=41804&tracking_id=" class="btn btn-primary">CHECK OUT</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 pb-1 pb-md-0">
+          <div class="card">
+            <img id="offer3" class="card-img-top" src="images/What's inside/3-playstation-5.png" alt="Card image cap">
+            <div class="card-body">
+              <h5 id="card3" class="card-title">Playstation 5</h5>
+              <p id="cardText3" class="card-text">Enter your details for a chance to win a Playstation 5. Offer available in the Netherlands only.</p>
+              <a id="buttonOffer3" href="https://ridefiles.net/show.php?l=0&u=700241&id=47356&tracking_id=" class="btn btn-primary">CHECK OUT</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="divHidden" class="row text-center mt-4" >
+        <div class="col-md-4 pb-1 pb-md-0">
+          <div class="card">
+            <img id="offer4" class="card-img-top" src="images/What's inside/4-iphone-13.png" alt="Card image cap">
+            <div class="card-body">
+              <h5 id="card4" class="card-title">iPhone 13</h5>
+              <p id="cardText4" class="card-text">Enter your phone number to win an iPhone 13. Offer available in New Zealand only.</p>
+              <a id="buttonOffer4" href="https://ridefiles.net/show.php?l=0&u=700241&id=39509&tracking_id=" class="btn btn-primary">CHECK OUT</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 pb-1 pb-md-0">
+          <div class="card">
+            <img id="offer5" class="card-img-top" src="images/What's inside/5-samsung-s21.png" alt="Card image cap">
+            <div class="card-body">
+              <h5 id="card5" class="card-title">Samsung Galaxy S21</h5>
+              <p id="cardText5" class="card-text">Enter your phone number to compete for a Samsung Galaxy S21. Offer available in Colombia only.</p>
+              <a id="buttonOffer5" href="https://ridefiles.net/show.php?l=0&u=700241&id=40740&tracking_id=" class="btn btn-primary">CHECK OUT</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 pb-1 pb-md-0">
+          <div class="card">
+            <img id="offer6" class="card-img-top" src="images/What's inside/6-xbox.png" alt="Card image cap">
+            <div class="card-body">
+              <h5 id="card6" class="card-title">Xbox Series X</h5>
+              <p id="cardText6" class="card-text">Enter your phone number to win an Xbox Series X. Offer available in South Africa only.</p>
+              <a id="buttonOffer6" href="https://ridefiles.net/show.php?l=0&u=700241&id=35305&tracking_id=" class="btn btn-primary">CHECK OUT</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <hr>
+    <hr>
+    <div class="container" hidden="">
+      <div class="row">
+        <div class="col-lg-4">
+          <ul class="list-unstyled">
+            <li class="media">
+              <img class="mr-3" src="images/100X125.gif" alt="Generic placeholder image">
+              <div class="media-body">
+                <h5 class="mt-0 mb-1">List-based media object</h5>
+                Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+              </div>
+            </li>
+            <li class="media my-4">
+              <img class="mr-3" src="images/100X125.gif" alt="Generic placeholder image">
+              <div class="media-body">
+                <h5 class="mt-0 mb-1">List-based media object</h5>
+                Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+              </div>
+            </li>
+            <li class="media">
+              <img class="mr-3" src="images/100X125.gif" alt="Generic placeholder image">
+              <div class="media-body">
+                <h5 class="mt-0 mb-1">List-based media object</h5>
+                Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+              </div>
+            </li>
+          </ul>
+        </div>
+        <div class="col-lg-4">
+          <ul class="list-unstyled">
+            <li class="media">
+              <img class="mr-3" src="images/100X125.gif" alt="Generic placeholder image">
+              <div class="media-body">
+                <h5 class="mt-0 mb-1">List-based media object</h5>
+                Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+              </div>
+            </li>
+            <li class="media my-4">
+              <img class="mr-3" src="images/100X125.gif" alt="Generic placeholder image">
+              <div class="media-body">
+                <h5 class="mt-0 mb-1">List-based media object</h5>
+                Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+              </div>
+            </li>
+            <li class="media">
+              <img class="mr-3" src="images/100X125.gif" alt="Generic placeholder image">
+              <div class="media-body">
+                <h5 class="mt-0 mb-1">List-based media object</h5>
+                Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+              </div>
+            </li>
+          </ul>
+        </div>
+        <div class="col-lg-4">
+          <ul class="list-unstyled">
+            <li class="media">
+              <img class="mr-3" src="images/100X125.gif" alt="Generic placeholder image">
+              <div class="media-body">
+                <h5 class="mt-0 mb-1">List-based media object</h5>
+                Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+              </div>
+            </li>
+            <li class="media my-4">
+              <img class="mr-3" src="images/100X125.gif" alt="Generic placeholder image">
+              <div class="media-body">
+                <h5 class="mt-0 mb-1">List-based media object</h5>
+                Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+              </div>
+            </li>
+            <li class="media">
+              <img class="mr-3" src="images/100X125.gif" alt="Generic placeholder image">
+              <div class="media-body">
+                <h5 class="mt-0 mb-1">List-based media object</h5>
+                Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <hr>
+    <div class="container text-white bg-dark p-4">
+      <div class="row">
+        <div class="col-6 col-md-8 col-lg-7">
+          <div class="row text-center">
+            <div class="col-sm-6 col-md-4 col-lg-4 col-12">
+              <ul class="list-unstyled">
+                <li class="btn-link"> <a href="#" id="footBrazil">Brazil</a> </li>
+                <li hidden class="btn-link"> <a href="#" id="footCanada">Canada</a> </li>
+                <li hidden class="btn-link"> <a href="#" id="footColombia">Colombia</a> </li>
+                <li hidden class="btn-link"> <a href="#" id="footFrance">France</a> </li>
+                <li hidden class="btn-link"> <a href="#" id="footGermany">Germany</a> </li>
+              </ul>
+            </div>
+            <div class="col-sm-6 col-md-4 col-lg-4 col-12" hidden>
+              <ul class="list-unstyled">
+                <li class="btn-link"> <a href="#" id="footItaly">Italy</a> </li>
+                <li class="btn-link"> <a href="#" id="footMalaysia">Malaysia</a> </li>
+                <li class="btn-link"> <a href="#" id="footMexico">Mexico</a> </li>
+                <li class="btn-link"> <a href="#" id="footNetherlands">Netherlands</a> </li>
+                <li class="btn-link"> <a href="#" id="footNewZealand">New Zealand</a> </li>
+              </ul>
+            </div>
+            <div class="col-sm-6 col-md-4 col-lg-4 col-12" hidden>
+              <ul class="list-unstyled">
+                <li class="btn-link"> <a href="#" id="footPortugal">Portugal</a> </li>
+                <li class="btn-link"> <a href="#" id="footAfrica">South Africa</a> </li>
+                <li class="btn-link"> <a href="#" id="footSpain">Spain</a> </li>
+                <li class="btn-link"> <a href="#" id="footUnitedStates">United States</a> </li>
+                <li class="btn-link"> <a href="#" id="footUnitedKingdom">United Kingdom</a> </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 col-lg-5 col-6">
+          <address>
+            <strong>Luckyshop&nbsp;</strong><br>
+			  <p id="footText">
+            One of these prizes could be yours, good luck!<br>
+              </p>
+          </address>
+        </div>
+      </div>
+    </div>
+    <footer class="text-center">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <p>Luckyshop © 2022.</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap-4.4.1.js"></script>
+	<script src="js/app.js"></script>
+  </body>
+</html>
